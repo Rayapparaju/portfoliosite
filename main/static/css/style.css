@@ -1,0 +1,26 @@
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.designer-role {
+  color: #009688;
+  font-weight: 500;
+}
+
+.rounded-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}

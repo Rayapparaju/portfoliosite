@@ -1,0 +1,66 @@
+{% extends 'main/base.html' %} {% load static %} <br />
+{% block title %}Our Services{% endblock %} {% block content %}
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Our Services</h1>
+
+  <div class="row">
+    <!-- Web Development -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="{% static 'images/webdev.jpg' %}"
+          class="card-img-top"
+          alt="Web Development"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">
+            We build modern, responsive, and scalable websites using the latest
+            technologies. From business websites to e-commerce platforms, we
+            deliver clean code and seamless functionality tailored to your
+            goals.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Graphic Design -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="{% static 'images/graphic.jpg' %}"
+          class="card-img-top"
+          alt="Graphic Design"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design</h5>
+          <p class="card-text">
+            Our creative team designs stunning visuals that elevate your brand.
+            From logos and business cards to social media content and marketing
+            materials — we craft designs that leave a lasting impression.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- UI/UX Design -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="{% static 'images/uiux.jpg' %}"
+          class="card-img-top"
+          alt="UI/UX Design"
+        />
+        <div class="card-body">
+          <h5 class="card-title">UI & UX Design</h5>
+          <p class="card-text">
+            We focus on delivering intuitive and engaging user experiences. Our
+            UI/UX design services ensure your app or website is easy to use,
+            visually appealing, and designed with your audience in mind.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'main/base.html' %} {% load static %} {% block title %}Designer
+Profile{% endblock %} {% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+      <!-- Profile Image Centered -->
+      <div class="d-flex justify-content-center align-items-center mb-4">
+        <img
+          src="{% static 'images/designer.jpg' %}"
+          class="rounded-circle"
+          style="width: 200px; height: 200px; object-fit: cover"
+          alt="Profile Image"
+        />
+      </div>
+
+      <!-- Designer Name -->
+      <h2>R RAYAPPA RAJU</h2>
+
+      <!-- Designer Role -->
+      <h5 class="text-muted mb-3">Graphic Designer & UI/UX Designer</h5>
+
+      <!-- Profile Paragraph -->
+      <p class="lead text-justify">
+        Rayappa Raju is a passionate UI/UX designer with over 5 years of
+        experience crafting intuitive and beautiful digital experiences. He
+        specializes in user-centered design, combining creativity and usability
+        to build engaging websites and applications. Raju is dedicated to
+        continuous learning and innovation, always staying ahead of the latest
+        design trends.
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

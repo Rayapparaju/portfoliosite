@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %} <br />
+
+{% load static %} {% block title %}Home{% endblock %} {% block content %}
+<div class="text-center mb-4">
+  <img
+    src="{% static 'images/home.jpg' %}"
+    class="img-fluid rounded"
+    alt="Welcome Image"
+  />
+</div>
+
+<h1 class="text-center">Welcome to My Portfolio</h1>
+<p class="lead text-center">We build modern and creative web experiences.</p>
+{% endblock %}
